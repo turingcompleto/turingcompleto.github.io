@@ -1,0 +1,168 @@
+body{
+     font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #a2a2a2;
+    background: #060607;
+}
+.menu{
+    background: #0f0f0f;
+    position: static;
+    background: url(../img/back2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    box-shadow: 10px 1px 10px black;
+}
+.aire{
+    margin-top: 5%;
+}
+
+.navegacion button{
+    color: white;
+    font-size: 1.2em;
+    position: fixed;
+}
+
+.btn-link:focus,.navegacion button:hover{
+    color: gray;
+    text-decoration: none;
+    border: 0;
+}
+
+.btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0; 
+     outline-offset: 0px; 
+}
+
+.modal-body, .modal-title, .modal-header, .modal-footer {
+	align-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.modal-body ul {
+	list-style: none;
+    text-decoration: none;
+}
+
+.modal-body ul li a {
+	color: white;
+}
+
+.close {
+    float: right;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .3;
+}
+
+.titulo {
+    margin-top: 23%;
+	text-align: center;
+    font-family: 'Josefin Slab', serif;
+    color: rgba(240, 255, 255, 0.82);
+    text-shadow: 2px 2px 5px black;
+}
+
+.sobremi{
+    background: #060607;
+}
+#sobremi{
+    margin-top: 5%;
+    
+}
+
+/* Modificacion de bar progresive*/
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #3a5974;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.progress-bar-striped {
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(83, 83, 83, 0.15) 50%,rgba(100, 96, 96, 0.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(8, 18, 21, 0.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(6, 24, 52, 0.15) 25%,transparent 25%,transparent 50%,rgba(31, 31, 31, 0.15) 50%,rgba(255,255,255,.15) 75%,rgba(37, 123, 197, 0) 75%,transparent);
+}
+
+
+/* ***FIN**** Modificacion de bar progresive*/
+
+.thumbnail{
+    opacity: .9;
+}
+
+.thumbnail, .caption{
+    background: black;
+}
+
+
+.thumbnail .caption {
+   color: #a2a2a2;
+}
+
+.row a{
+    text-decoration: none;
+    color: #a2a2a2;
+}
+
+.row a:hover{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+footer{
+    background: #060607;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #a8a8a8;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn-primary{
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #245580;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #245580;
+    color: firebrick;
+}
+
